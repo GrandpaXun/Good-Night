@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C397EA91C25986500A5EE90 /* sleepDataForDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C397EA81C25986500A5EE90 /* sleepDataForDay.m */; };
+		7C411E6F1C54FA350062A9AC /* a 21-21-31-213.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C411E6E1C54FA350062A9AC /* a 21-21-31-213.png */; };
+		7C4619811C579247005985F4 /* first.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4619801C579247005985F4 /* first.jpg */; };
+		7C4619831C57924E005985F4 /* second.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4619821C57924E005985F4 /* second.jpg */; };
+		7C4619851C579254005985F4 /* third.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4619841C579254005985F4 /* third.jpg */; };
+		7C4619871C579259005985F4 /* forth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4619861C579259005985F4 /* forth.jpg */; };
+		7C4ECB841C5111CB00C2C594 /* SleepConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4ECB831C5111CB00C2C594 /* SleepConditionViewController.m */; };
+		7C5493D31C24323D00E873BA /* RootViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493D21C24323D00E873BA /* RootViewTableViewController.m */; };
+		7C5493D61C24348B00E873BA /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493D51C24348B00E873BA /* myTableViewCell.m */; };
+		7C5493DF1C24398900E873BA /* myChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493DE1C24398900E873BA /* myChart.m */; };
+		7C5493E21C243A2400E873BA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493E11C243A2400E873BA /* SecondViewController.m */; };
+		7C5493E51C243C2400E873BA /* myBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493E41C243C2400E873BA /* myBar.m */; };
+		7C5493E81C243D6B00E873BA /* myBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493E71C243D6B00E873BA /* myBarChart.m */; };
+		7C5493EB1C243F7800E873BA /* myChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493EA1C243F7800E873BA /* myChartLabel.m */; };
+		7C5493EE1C243FDE00E873BA /* myColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493ED1C243FDE00E873BA /* myColor.m */; };
+		7C5493F11C2440BC00E873BA /* myLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5493F01C2440BC00E873BA /* myLineChart.m */; };
+		7C6CE7AA1C296D3E001A3B0C /* 827b389db0e1ca99446ef44472e9839b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6CE7A91C296D3E001A3B0C /* 827b389db0e1ca99446ef44472e9839b.jpg */; };
+		7C6CE7AC1C296DDF001A3B0C /* ce9fc888b07ff46a198e9797a0b29142.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6CE7AB1C296DDF001A3B0C /* ce9fc888b07ff46a198e9797a0b29142.jpg */; };
+		7C86F8FA1C0C60E300F82090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C86F8F91C0C60E300F82090 /* main.m */; };
+		7C86F8FD1C0C60E300F82090 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C86F8FC1C0C60E300F82090 /* AppDelegate.m */; };
+		7C86F9031C0C60E300F82090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C86F9011C0C60E300F82090 /* Main.storyboard */; };
+		7C86F9051C0C60E300F82090 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C86F9041C0C60E300F82090 /* Images.xcassets */; };
+		7C86F9081C0C60E300F82090 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C86F9061C0C60E300F82090 /* LaunchScreen.xib */; };
+		7C86F9141C0C60E400F82090 /* Good_NightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C86F9131C0C60E400F82090 /* Good_NightTests.m */; };
+		7C86F9201C0C72F400F82090 /* db523544194a2d7f3777b33f01153b9b.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C86F91F1C0C72F400F82090 /* db523544194a2d7f3777b33f01153b9b.jpeg */; };
+		7CCE64B21C145A2600C8BB87 /* sleepData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE64B11C145A2600C8BB87 /* sleepData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C86F90E1C0C60E400F82090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C86F8EC1C0C60E300F82090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C86F8F31C0C60E300F82090;
+			remoteInfo = "Good Night";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C397EA71C25986500A5EE90 /* sleepDataForDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sleepDataForDay.h; sourceTree = "<group>"; };
+		7C397EA81C25986500A5EE90 /* sleepDataForDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sleepDataForDay.m; sourceTree = "<group>"; };
+		7C411E6E1C54FA350062A9AC /* a 21-21-31-213.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a 21-21-31-213.png"; path = "Images.xcassets/AppIcon.appiconset/a 21-21-31-213.png"; sourceTree = "<group>"; };
+		7C4619801C579247005985F4 /* first.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpg; sourceTree = "<group>"; };
+		7C4619821C57924E005985F4 /* second.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpg; sourceTree = "<group>"; };
+		7C4619841C579254005985F4 /* third.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = third.jpg; sourceTree = "<group>"; };
+		7C4619861C579259005985F4 /* forth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forth.jpg; sourceTree = "<group>"; };
+		7C4ECB821C5111CB00C2C594 /* SleepConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepConditionViewController.h; sourceTree = "<group>"; };
+		7C4ECB831C5111CB00C2C594 /* SleepConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepConditionViewController.m; sourceTree = "<group>"; };
+		7C5493D11C24323D00E873BA /* RootViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewTableViewController.h; sourceTree = "<group>"; };
+		7C5493D21C24323D00E873BA /* RootViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewTableViewController.m; sourceTree = "<group>"; };
+		7C5493D41C24348B00E873BA /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		7C5493D51C24348B00E873BA /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
+		7C5493DD1C24398900E873BA /* myChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myChart.h; path = "My Chart/myChart.h"; sourceTree = "<group>"; };
+		7C5493DE1C24398900E873BA /* myChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myChart.m; path = "My Chart/myChart.m"; sourceTree = "<group>"; };
+		7C5493E01C243A1B00E873BA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7C5493E11C243A2400E873BA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7C5493E31C243C2400E873BA /* myBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myBar.h; path = "My Chart/myBar.h"; sourceTree = "<group>"; };
+		7C5493E41C243C2400E873BA /* myBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myBar.m; path = "My Chart/myBar.m"; sourceTree = "<group>"; };
+		7C5493E61C243D6B00E873BA /* myBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myBarChart.h; path = "My Chart/myBarChart.h"; sourceTree = "<group>"; };
+		7C5493E71C243D6B00E873BA /* myBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myBarChart.m; path = "My Chart/myBarChart.m"; sourceTree = "<group>"; };
+		7C5493E91C243F7800E873BA /* myChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myChartLabel.h; path = "My Chart/myChartLabel.h"; sourceTree = "<group>"; };
+		7C5493EA1C243F7800E873BA /* myChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myChartLabel.m; path = "My Chart/myChartLabel.m"; sourceTree = "<group>"; };
+		7C5493EC1C243FDE00E873BA /* myColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myColor.h; path = "My Chart/myColor.h"; sourceTree = "<group>"; };
+		7C5493ED1C243FDE00E873BA /* myColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myColor.m; path = "My Chart/myColor.m"; sourceTree = "<group>"; };
+		7C5493EF1C2440BC00E873BA /* myLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myLineChart.h; path = "My Chart/myLineChart.h"; sourceTree = "<group>"; };
+		7C5493F01C2440BC00E873BA /* myLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myLineChart.m; path = "My Chart/myLineChart.m"; sourceTree = "<group>"; };
+		7C6CE7A91C296D3E001A3B0C /* 827b389db0e1ca99446ef44472e9839b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 827b389db0e1ca99446ef44472e9839b.jpg; sourceTree = "<group>"; };
+		7C6CE7AB1C296DDF001A3B0C /* ce9fc888b07ff46a198e9797a0b29142.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ce9fc888b07ff46a198e9797a0b29142.jpg; sourceTree = "<group>"; };
+		7C86F8F41C0C60E300F82090 /* Good Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C86F8F81C0C60E300F82090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C86F8F91C0C60E300F82090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C86F8FB1C0C60E300F82090 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C86F8FC1C0C60E300F82090 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C86F9021C0C60E300F82090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C86F9041C0C60E300F82090 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7C86F9071C0C60E300F82090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7C86F90D1C0C60E400F82090 /* Good NightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Good NightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C86F9121C0C60E400F82090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C86F9131C0C60E400F82090 /* Good_NightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Good_NightTests.m; sourceTree = "<group>"; };
+		7C86F91F1C0C72F400F82090 /* db523544194a2d7f3777b33f01153b9b.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = db523544194a2d7f3777b33f01153b9b.jpeg; sourceTree = "<group>"; };
+		7CCE64B01C145A2600C8BB87 /* sleepData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sleepData.h; sourceTree = "<group>"; };
+		7CCE64B11C145A2600C8BB87 /* sleepData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sleepData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C86F8F11C0C60E300F82090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C86F90A1C0C60E400F82090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C86F8EB1C0C60E300F82090 = {
+			isa = PBXGroup;
+			children = (
+				7C5493DD1C24398900E873BA /* myChart.h */,
+				7C5493E31C243C2400E873BA /* myBar.h */,
+				7C5493E41C243C2400E873BA /* myBar.m */,
+				7C5493E61C243D6B00E873BA /* myBarChart.h */,
+				7C5493E71C243D6B00E873BA /* myBarChart.m */,
+				7C5493E91C243F7800E873BA /* myChartLabel.h */,
+				7C5493EA1C243F7800E873BA /* myChartLabel.m */,
+				7C5493EC1C243FDE00E873BA /* myColor.h */,
+				7C5493ED1C243FDE00E873BA /* myColor.m */,
+				7C5493EF1C2440BC00E873BA /* myLineChart.h */,
+				7C5493F01C2440BC00E873BA /* myLineChart.m */,
+				7C5493DE1C24398900E873BA /* myChart.m */,
+				7C86F8F61C0C60E300F82090 /* Good Night */,
+				7C86F9101C0C60E400F82090 /* Good NightTests */,
+				7C86F8F51C0C60E300F82090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C86F8F51C0C60E300F82090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C86F8F41C0C60E300F82090 /* Good Night.app */,
+				7C86F90D1C0C60E400F82090 /* Good NightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C86F8F61C0C60E300F82090 /* Good Night */ = {
+			isa = PBXGroup;
+			children = (
+				7C4619861C579259005985F4 /* forth.jpg */,
+				7C4619841C579254005985F4 /* third.jpg */,
+				7C4619821C57924E005985F4 /* second.jpg */,
+				7C4619801C579247005985F4 /* first.jpg */,
+				7C411E6E1C54FA350062A9AC /* a 21-21-31-213.png */,
+				7C5493E11C243A2400E873BA /* SecondViewController.m */,
+				7C5493E01C243A1B00E873BA /* SecondViewController.h */,
+				7C86F8FB1C0C60E300F82090 /* AppDelegate.h */,
+				7C86F8FC1C0C60E300F82090 /* AppDelegate.m */,
+				7C5493D11C24323D00E873BA /* RootViewTableViewController.h */,
+				7C5493D21C24323D00E873BA /* RootViewTableViewController.m */,
+				7C5493D41C24348B00E873BA /* myTableViewCell.h */,
+				7C5493D51C24348B00E873BA /* myTableViewCell.m */,
+				7C86F9011C0C60E300F82090 /* Main.storyboard */,
+				7CCE64B01C145A2600C8BB87 /* sleepData.h */,
+				7C6CE7AB1C296DDF001A3B0C /* ce9fc888b07ff46a198e9797a0b29142.jpg */,
+				7CCE64B11C145A2600C8BB87 /* sleepData.m */,
+				7C6CE7A91C296D3E001A3B0C /* 827b389db0e1ca99446ef44472e9839b.jpg */,
+				7C397EA71C25986500A5EE90 /* sleepDataForDay.h */,
+				7C397EA81C25986500A5EE90 /* sleepDataForDay.m */,
+				7C86F9041C0C60E300F82090 /* Images.xcassets */,
+				7C86F91F1C0C72F400F82090 /* db523544194a2d7f3777b33f01153b9b.jpeg */,
+				7C86F9061C0C60E300F82090 /* LaunchScreen.xib */,
+				7C86F8F71C0C60E300F82090 /* Supporting Files */,
+				7C4ECB821C5111CB00C2C594 /* SleepConditionViewController.h */,
+				7C4ECB831C5111CB00C2C594 /* SleepConditionViewController.m */,
+			);
+			path = "Good Night";
+			sourceTree = "<group>";
+		};
+		7C86F8F71C0C60E300F82090 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C86F8F81C0C60E300F82090 /* Info.plist */,
+				7C86F8F91C0C60E300F82090 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C86F9101C0C60E400F82090 /* Good NightTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C86F9131C0C60E400F82090 /* Good_NightTests.m */,
+				7C86F9111C0C60E400F82090 /* Supporting Files */,
+			);
+			path = "Good NightTests";
+			sourceTree = "<group>";
+		};
+		7C86F9111C0C60E400F82090 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C86F9121C0C60E400F82090 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C86F8F31C0C60E300F82090 /* Good Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C86F9171C0C60E400F82090 /* Build configuration list for PBXNativeTarget "Good Night" */;
+			buildPhases = (
+				7C86F8F01C0C60E300F82090 /* Sources */,
+				7C86F8F11C0C60E300F82090 /* Frameworks */,
+				7C86F8F21C0C60E300F82090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Good Night";
+			productName = "Good Night";
+			productReference = 7C86F8F41C0C60E300F82090 /* Good Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C86F90C1C0C60E400F82090 /* Good NightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C86F91A1C0C60E400F82090 /* Build configuration list for PBXNativeTarget "Good NightTests" */;
+			buildPhases = (
+				7C86F9091C0C60E400F82090 /* Sources */,
+				7C86F90A1C0C60E400F82090 /* Frameworks */,
+				7C86F90B1C0C60E400F82090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C86F90F1C0C60E400F82090 /* PBXTargetDependency */,
+			);
+			name = "Good NightTests";
+			productName = "Good NightTests";
+			productReference = 7C86F90D1C0C60E400F82090 /* Good NightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C86F8EC1C0C60E300F82090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = nju;
+				TargetAttributes = {
+					7C86F8F31C0C60E300F82090 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = W2YVPAZ6AP;
+					};
+					7C86F90C1C0C60E400F82090 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7C86F8F31C0C60E300F82090;
+					};
+				};
+			};
+			buildConfigurationList = 7C86F8EF1C0C60E300F82090 /* Build configuration list for PBXProject "Good Night" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C86F8EB1C0C60E300F82090;
+			productRefGroup = 7C86F8F51C0C60E300F82090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C86F8F31C0C60E300F82090 /* Good Night */,
+				7C86F90C1C0C60E400F82090 /* Good NightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C86F8F21C0C60E300F82090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4619811C579247005985F4 /* first.jpg in Resources */,
+				7C4619851C579254005985F4 /* third.jpg in Resources */,
+				7C6CE7AA1C296D3E001A3B0C /* 827b389db0e1ca99446ef44472e9839b.jpg in Resources */,
+				7C4619871C579259005985F4 /* forth.jpg in Resources */,
+				7C4619831C57924E005985F4 /* second.jpg in Resources */,
+				7C6CE7AC1C296DDF001A3B0C /* ce9fc888b07ff46a198e9797a0b29142.jpg in Resources */,
+				7C86F9031C0C60E300F82090 /* Main.storyboard in Resources */,
+				7C411E6F1C54FA350062A9AC /* a 21-21-31-213.png in Resources */,
+				7C86F9201C0C72F400F82090 /* db523544194a2d7f3777b33f01153b9b.jpeg in Resources */,
+				7C86F9081C0C60E300F82090 /* LaunchScreen.xib in Resources */,
+				7C86F9051C0C60E300F82090 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C86F90B1C0C60E400F82090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C86F8F01C0C60E300F82090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5493F11C2440BC00E873BA /* myLineChart.m in Sources */,
+				7C397EA91C25986500A5EE90 /* sleepDataForDay.m in Sources */,
+				7C5493D31C24323D00E873BA /* RootViewTableViewController.m in Sources */,
+				7C5493D61C24348B00E873BA /* myTableViewCell.m in Sources */,
+				7C4ECB841C5111CB00C2C594 /* SleepConditionViewController.m in Sources */,
+				7C5493DF1C24398900E873BA /* myChart.m in Sources */,
+				7C5493EB1C243F7800E873BA /* myChartLabel.m in Sources */,
+				7C5493E81C243D6B00E873BA /* myBarChart.m in Sources */,
+				7C5493E21C243A2400E873BA /* SecondViewController.m in Sources */,
+				7C86F8FD1C0C60E300F82090 /* AppDelegate.m in Sources */,
+				7C5493E51C243C2400E873BA /* myBar.m in Sources */,
+				7C5493EE1C243FDE00E873BA /* myColor.m in Sources */,
+				7C86F8FA1C0C60E300F82090 /* main.m in Sources */,
+				7CCE64B21C145A2600C8BB87 /* sleepData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C86F9091C0C60E400F82090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C86F9141C0C60E400F82090 /* Good_NightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C86F90F1C0C60E400F82090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C86F8F31C0C60E300F82090 /* Good Night */;
+			targetProxy = 7C86F90E1C0C60E400F82090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C86F9011C0C60E300F82090 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C86F9021C0C60E300F82090 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C86F9061C0C60E300F82090 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C86F9071C0C60E300F82090 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C86F9151C0C60E400F82090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C86F9161C0C60E400F82090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C86F9181C0C60E400F82090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Good Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.nju.edu.hello.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C86F9191C0C60E400F82090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Good Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.nju.edu.hello.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7C86F91B1C0C60E400F82090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Good NightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.nju.edu.hello.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Good Night.app/Good Night";
+			};
+			name = Debug;
+		};
+		7C86F91C1C0C60E400F82090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Good NightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.nju.edu.hello.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Good Night.app/Good Night";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C86F8EF1C0C60E300F82090 /* Build configuration list for PBXProject "Good Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C86F9151C0C60E400F82090 /* Debug */,
+				7C86F9161C0C60E400F82090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C86F9171C0C60E400F82090 /* Build configuration list for PBXNativeTarget "Good Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C86F9181C0C60E400F82090 /* Debug */,
+				7C86F9191C0C60E400F82090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C86F91A1C0C60E400F82090 /* Build configuration list for PBXNativeTarget "Good NightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C86F91B1C0C60E400F82090 /* Debug */,
+				7C86F91C1C0C60E400F82090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C86F8EC1C0C60E300F82090 /* Project object */;
+}

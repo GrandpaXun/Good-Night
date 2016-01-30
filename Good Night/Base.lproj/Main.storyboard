@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iEF-j1-buR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--添加睡眠记录-->
+        <scene sceneID="3eL-gs-ro3">
+            <objects>
+                <viewController id="e7n-4n-SHX" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZYY-di-OyE"/>
+                        <viewControllerLayoutGuide type="bottom" id="baf-XY-IqF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="49j-Cf-A1N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="827b389db0e1ca99446ef44472e9839b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jVB-9a-RJw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <animations/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QEM-Eu-dRL">
+                                <rect key="frame" x="49" y="216" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" background="827b389db0e1ca99446ef44472e9839b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kbQ-YG-D8U">
+                                <rect key="frame" x="233" y="215" width="97" height="30"/>
+                                <animations/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b7e-mX-bKq">
+                                <rect key="frame" x="49" y="319" width="97" height="30"/>
+                                <animations/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JDA-VN-mSi">
+                                <rect key="frame" x="233" y="319" width="97" height="30"/>
+                                <animations/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text=":" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhf-LM-BJX">
+                                <rect key="frame" x="187" y="219" width="38" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text=":" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Wm-Bb-wL6">
+                                <rect key="frame" x="187" y="323" width="39" height="22"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="入睡时间" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMc-IB-WhZ">
+                                <rect key="frame" x="49" y="169" width="68" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="醒来时间" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBy-Po-ptG">
+                                <rect key="frame" x="49" y="271" width="68" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="输入您昨晚的睡眠信息和质量吧～" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3TS-1O-RiV">
+                                <rect key="frame" x="60" y="87" width="255" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQ4-Qv-SsT">
+                                <rect key="frame" x="0.0" y="424" width="491" height="216"/>
+                                <animations/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BNi-oQ-bcW">
+                                <rect key="frame" x="0.0" y="413" width="422" height="216"/>
+                                <animations/>
+                            </pickerView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jVB-9a-RJw" firstAttribute="height" secondItem="49j-Cf-A1N" secondAttribute="height" id="84i-r1-PTT"/>
+                            <constraint firstItem="jVB-9a-RJw" firstAttribute="width" secondItem="49j-Cf-A1N" secondAttribute="width" id="HkY-oD-j4E"/>
+                            <constraint firstItem="JDA-VN-mSi" firstAttribute="leading" secondItem="jVB-9a-RJw" secondAttribute="trailing" constant="-142" id="JUl-QE-835"/>
+                            <constraint firstItem="jVB-9a-RJw" firstAttribute="leading" secondItem="b7e-mX-bKq" secondAttribute="trailing" constant="-146" id="Kc2-Yy-rlu"/>
+                            <constraint firstItem="3TS-1O-RiV" firstAttribute="centerX" secondItem="49j-Cf-A1N" secondAttribute="centerX" id="MeO-mP-L3x"/>
+                            <constraint firstItem="jVB-9a-RJw" firstAttribute="leading" secondItem="QEM-Eu-dRL" secondAttribute="trailing" constant="-146" id="NK5-TK-JsX"/>
+                            <constraint firstItem="hhf-LM-BJX" firstAttribute="centerX" secondItem="49j-Cf-A1N" secondAttribute="centerX" id="e2o-Dg-lPL"/>
+                            <constraint firstItem="0Wm-Bb-wL6" firstAttribute="centerX" secondItem="49j-Cf-A1N" secondAttribute="centerX" id="toy-Tn-pxu"/>
+                            <constraint firstItem="YQ4-Qv-SsT" firstAttribute="width" secondItem="49j-Cf-A1N" secondAttribute="width" id="xHx-H1-JDS"/>
+                            <constraint firstItem="BNi-oQ-bcW" firstAttribute="width" secondItem="49j-Cf-A1N" secondAttribute="width" id="y3m-hg-dWW"/>
+                            <constraint firstItem="kbQ-YG-D8U" firstAttribute="leading" secondItem="jVB-9a-RJw" secondAttribute="trailing" constant="-142" id="zo6-Ad-g6u"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="添加睡眠记录" id="30d-KZ-PDV" colorLabel="IBBuiltInLabel-Red">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Oam-NF-AFx">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="WQI-se-y6y" kind="unwind" unwindAction="unwindToTable:" id="gVf-AX-uD0"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="S0x-ol-yj1">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="WQI-se-y6y" kind="unwind" unwindAction="unwindToTable:" id="OKQ-9A-8Jo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backGroundImage" destination="jVB-9a-RJw" id="1JQ-5M-UMX"/>
+                        <outlet property="endHour" destination="b7e-mX-bKq" id="SuY-UV-VB7"/>
+                        <outlet property="endMinute" destination="JDA-VN-mSi" id="bNb-Qi-Hjd"/>
+                        <outlet property="hourPick" destination="YQ4-Qv-SsT" id="cFc-Mh-5xQ"/>
+                        <outlet property="minutePick" destination="BNi-oQ-bcW" id="rNy-17-Ot1"/>
+                        <outlet property="saveButton" destination="S0x-ol-yj1" id="pxg-Uo-eL8"/>
+                        <outlet property="startHour" destination="QEM-Eu-dRL" id="P4l-vF-zyT"/>
+                        <outlet property="startMinute" destination="kbQ-YG-D8U" id="iY8-5o-N5b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TpF-kU-BNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="WQI-se-y6y" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3131" y="514"/>
+        </scene>
+        <!--Root View Table View Controller-->
+        <scene sceneID="PZG-nD-WJg">
+            <objects>
+                <tableViewController id="MYG-XK-NNq" customClass="RootViewTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dfe-d1-caI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="5h9-6e-Bsc">
+                            <rect key="frame" x="0.0" y="136" width="600" height="532"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Average sleep Hours last week:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIr-hI-SQg">
+                                    <rect key="frame" x="84" y="8" width="359" height="28"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                    <color key="textColor" red="0.16030833125114441" green="0.052475675940513611" blue="0.87587267160415649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Average sleep Hours this week:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Um0-SY-H2S">
+                                    <rect key="frame" x="139" y="82" width="321" height="28"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                    <color key="textColor" red="0.16030833125114441" green="0.052475675940513611" blue="0.87587267160415649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0 Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgh-wI-nqo">
+                                    <rect key="frame" x="247" y="44" width="89" height="30"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <color key="textColor" red="0.97372895479202271" green="0.040476247668266296" blue="0.97249597311019897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0 Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPY-2G-0oP">
+                                    <rect key="frame" x="247" y="135" width="89" height="30"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <color key="textColor" red="0.97372895479202271" green="0.040476247668266296" blue="0.97249597311019897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <animations/>
+                            <constraints>
+                                <constraint firstItem="WIr-hI-SQg" firstAttribute="centerX" secondItem="5h9-6e-Bsc" secondAttribute="centerX" id="D6j-U4-rbM"/>
+                                <constraint firstItem="Um0-SY-H2S" firstAttribute="centerX" secondItem="5h9-6e-Bsc" secondAttribute="centerX" id="Rq9-xi-vQm"/>
+                                <constraint firstItem="Zgh-wI-nqo" firstAttribute="centerX" secondItem="5h9-6e-Bsc" secondAttribute="centerX" id="hT3-SX-Ueh"/>
+                                <constraint firstItem="EPY-2G-0oP" firstAttribute="centerX" secondItem="5h9-6e-Bsc" secondAttribute="centerX" id="q7m-oK-oAo"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TableViewCell" id="fFs-GQ-scb" customClass="myTableViewCell">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fFs-GQ-scb" id="xyI-nt-tW7">
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="MYG-XK-NNq" id="oCu-4E-6cv"/>
+                            <outlet property="delegate" destination="MYG-XK-NNq" id="cCH-G6-2PM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="lh7-0I-oyK">
+                        <barButtonItem key="leftBarButtonItem" title="查看睡眠质量" id="j78-wL-s19">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="0XV-w6-LQc" kind="presentation" id="rWV-4S-e1G"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="添加睡眠记录" id="I1E-Rp-Ex2">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="J8C-v8-hAi" kind="presentation" id="9Zj-es-EWR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="averageTimeOfLastWeek" destination="Zgh-wI-nqo" id="If6-4K-BLr"/>
+                        <outlet property="averageTimeOfThisWeek" destination="EPY-2G-0oP" id="Cou-zp-A5O"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0xO-gs-5qM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824" y="480"/>
+        </scene>
+        <!--睡眠质量-->
+        <scene sceneID="g02-dB-GRg">
+            <objects>
+                <viewController id="hF0-1w-4Na" customClass="SleepConditionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l0f-o1-K7y"/>
+                        <viewControllerLayoutGuide type="bottom" id="9HZ-9z-8jg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="76Z-2K-dRH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="first.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LcW-6s-3wh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="second.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YSw-hH-Gue">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="third.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="i9H-Rk-kkf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="forth.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Cuk-DX-TOw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YSw-hH-Gue" firstAttribute="width" secondItem="76Z-2K-dRH" secondAttribute="width" id="5o3-tD-XSW"/>
+                            <constraint firstItem="LcW-6s-3wh" firstAttribute="height" secondItem="76Z-2K-dRH" secondAttribute="height" id="9Yb-qQ-Rpv"/>
+                            <constraint firstItem="YSw-hH-Gue" firstAttribute="height" secondItem="76Z-2K-dRH" secondAttribute="height" id="bWC-gI-pck"/>
+                            <constraint firstItem="LcW-6s-3wh" firstAttribute="width" secondItem="76Z-2K-dRH" secondAttribute="width" id="fiv-0f-asv"/>
+                            <constraint firstItem="Cuk-DX-TOw" firstAttribute="height" secondItem="76Z-2K-dRH" secondAttribute="height" id="uVI-FG-oyw"/>
+                            <constraint firstItem="i9H-Rk-kkf" firstAttribute="width" secondItem="76Z-2K-dRH" secondAttribute="width" id="vdw-ta-wmF"/>
+                            <constraint firstItem="i9H-Rk-kkf" firstAttribute="height" secondItem="76Z-2K-dRH" secondAttribute="height" id="vv8-YA-jxB"/>
+                            <constraint firstItem="Cuk-DX-TOw" firstAttribute="width" secondItem="76Z-2K-dRH" secondAttribute="width" id="y2P-rk-Elh"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="睡眠质量" id="xsY-qM-Fju">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="eux-zg-RWS">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="cSC-KJ-FCD" kind="unwind" unwindAction="unwindToTable:" id="zn4-tX-gwj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="photo" destination="LcW-6s-3wh" id="VC8-xc-mx6"/>
+                        <outlet property="photoFourth" destination="Cuk-DX-TOw" id="g21-te-egH"/>
+                        <outlet property="photoSecond" destination="YSw-hH-Gue" id="P3X-nY-YmU"/>
+                        <outlet property="photoThird" destination="i9H-Rk-kkf" id="58z-0B-hGs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="axB-aK-dKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cSC-KJ-FCD" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1435" y="1236"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Iac-nv-MAq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J8C-v8-hAi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wwa-3t-3AT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="e7n-4n-SHX" kind="relationship" relationship="rootViewController" id="Fam-Kv-dyk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xd8-nt-Ixa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2423" y="1015"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pAD-Nd-z8y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iEF-j1-buR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6RV-Cp-1pT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MYG-XK-NNq" kind="relationship" relationship="rootViewController" id="NC9-Dk-qQc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vks-fB-gbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="62" y="480"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1sn-GJ-3qT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0XV-w6-LQc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="RkC-4O-Euz"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uex-ZA-PNn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hF0-1w-4Na" kind="relationship" relationship="rootViewController" id="OQp-M1-tpP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rlT-Rq-Jdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673" y="1144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="827b389db0e1ca99446ef44472e9839b.jpg" width="580" height="870"/>
+        <image name="first.jpg" width="580" height="870"/>
+        <image name="forth.jpg" width="580" height="870"/>
+        <image name="second.jpg" width="580" height="870"/>
+        <image name="third.jpg" width="580" height="870"/>
+    </resources>
+    <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+</document>

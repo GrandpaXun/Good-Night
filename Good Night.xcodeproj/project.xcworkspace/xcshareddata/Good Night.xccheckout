@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4EF223F0-2716-4538-AAE7-C7D9EBDC7EDF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DD885849FE6F6590C15A9604108D7E2B4E7CEE90</key>
+		<string>https://github.com/GrandpaXun/Good-Night.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Good Night.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DD885849FE6F6590C15A9604108D7E2B4E7CEE90</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/GrandpaXun/Good-Night.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DD885849FE6F6590C15A9604108D7E2B4E7CEE90</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD885849FE6F6590C15A9604108D7E2B4E7CEE90</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Good%20Night</string>
+		</dict>
+	</array>
+</dict>
+</plist>
