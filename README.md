@@ -23,13 +23,13 @@ We hope the app can analyze the user's sleep data and give the user more than ju
 * The app can ask the user to input their sleep quality of their sleep together with sleep time and analyze user's sleep with both. However, we do not know the offcially level of a person's sleep. We are trying to learn about it.
 
 ### About us 
-yuanxun wang <br>
+Yuanxun Wang <br>
 Undergraduate <br>
 Department of Computer Science and Technology <br>
 Nanjing University <br>
 wangyuanxun@smail.nju.edu.cn <br>
 <br>
-weiyu ye <br>
+Weiyu Ye <br>
 Undergraduate <br>
 Department of Computer Science and Technology <br>
 Nanjing University <br>
